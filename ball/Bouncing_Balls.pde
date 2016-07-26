@@ -4,6 +4,7 @@ ArrayList<Ball> balls = new ArrayList<Ball>();
 void setup() {
   size(500, 500);
   
+  balls.clear();
   balls.add(new Ball());
 }
 
